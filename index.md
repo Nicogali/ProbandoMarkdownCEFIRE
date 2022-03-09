@@ -56,9 +56,9 @@ En la pregunta de la imagen tenemos:
    3. `n3` tomará valores aleatorios entre 2 y 4, por lo que valdrá 2, 3 o 4.
 3. La definición de la variable solución `solA: n1-(n2-n3)`.
 
-::: info
-Obsérvese que cada línea acaba en `;` y que se utilizan comandos de `Máxima`.
-:::
+{% include info.html content="
+Obsérvese que cada línea acaba en `;` y que se utilizan comandos de `Máxima`."%}
+
 
 ***********************
 
@@ -80,9 +80,7 @@ En la siguiente animación se muestra cómo cambiar al editor de `Texto plano`.
 
 > El editor de `Texto plano` nos proporcionará mucha mayor funcionalidad que el editor por defecto (`Atto`). 
 
-::: warning
-Además, el editor `Atto` da **problemas** cuando hay código `Javascript` en las preguntas.
-:::
+<div markdown="span" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> Además, el editor `Atto` da **problemas** cuando hay código `Javascript` en las preguntas.</div>
 
 Al principio, puede resultar algo complejo el manejo del `HTML`, pero uno se acostumbra relativamente rápido a su uso. Se puede encotrar una referencia muy detallada del uso de HTML en [esta página](https://www.w3schools.com/html/).
 
