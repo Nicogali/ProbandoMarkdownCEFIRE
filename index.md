@@ -38,8 +38,8 @@ En este campo, es donde se define toda la lógica de la pregunta:
 + Operaciones entre las variables.
 + Comentarios al código.
 
-<div class="alert alert-success" role="alert">
- En esta parte, definimos toda la parte matemática de la pregunta que estamos realizando, desde las `VARIABLES` hasta la `SOLUCIÓN`.
+{% include note.html content="En esta parte, definimos toda la parte matemática de la pregunta que estamos realizando, desde las `VARIABLES` hasta la `SOLUCIÓN`." %}
+ 
  </div>
 
 Debemos emplear el lenguaje de [`Máxima CAS`](https://maxima.sourceforge.io/es/index.html).
