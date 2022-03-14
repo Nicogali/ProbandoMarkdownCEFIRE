@@ -6,7 +6,7 @@
 
 Vamos a explorar la "pinta" que tiene una pregunta `STACK` a través de la exploración de un ejemplo.
 
-{% hint style="warning" %} ESTA DOCUMENTACIÓN SE ELABORÓ DURANTE EL VERANO DE 2020 Y NO SE ACTUALIZA {% endhint %}
+> ⚠️ ESTA DOCUMENTACIÓN SE ELABORÓ DURANTE EL VERANO DE 2020 Y NO SE ACTUALIZA.
 
 ***
 
@@ -40,9 +40,7 @@ En este campo, es donde se define toda la lógica de la pregunta:
 + Operaciones entre las variables.
 + Comentarios al código.
 
-{% include note.html content="En esta parte, definimos toda la parte matemática de la pregunta que estamos realizando, desde las `VARIABLES` hasta la `SOLUCIÓN`." %}
- 
- </div>
+> ℹ️ En esta parte, definimos toda la parte matemática de la pregunta que estamos realizando, desde las `VARIABLES` hasta la `SOLUCIÓN`.
 
 Debemos emplear el lenguaje de [`Máxima CAS`](https://maxima.sourceforge.io/es/index.html).
 
@@ -58,8 +56,7 @@ En la pregunta de la imagen tenemos:
    3. `n3` tomará valores aleatorios entre 2 y 4, por lo que valdrá 2, 3 o 4.
 3. La definición de la variable solución `solA: n1-(n2-n3)`.
 
-{% include info.html content="
-Obsérvese que cada línea acaba en `;` y que se utilizan comandos de `Máxima`."%}
+> ✏️ Obsérvese que cada línea acaba en `;` y que se utilizan comandos de `Máxima`.
 
 
 ***********************
@@ -82,7 +79,7 @@ En la siguiente animación se muestra cómo cambiar al editor de `Texto plano`.
 
 > El editor de `Texto plano` nos proporcionará mucha mayor funcionalidad que el editor por defecto (`Atto`). 
 
-<div markdown="span" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> Además, el editor `Atto` da **problemas** cuando hay código `Javascript` en las preguntas.</div>
+> ⚠️ Además, el editor `Atto` da **problemas** cuando hay código `Javascript` en las preguntas.
 
 Al principio, puede resultar algo complejo el manejo del `HTML`, pero uno se acostumbra relativamente rápido a su uso. Se puede encotrar una referencia muy detallada del uso de HTML en [esta página](https://www.w3schools.com/html/).
 
@@ -140,7 +137,7 @@ En el ejemplo que se muestra hemos establecido:
 
 Aparecerá uno por cada uno de los `[[feedback:nombreDeParte]]` que hayamos incluido en el enunciado.
 
->Permiten:
+> Aquí:
 >+ Realizaremos la **evaluación** de lo que ha introducido el alumno.
 >+ Asignaremos **puntuación** a la respuesta obtenida.
 >+ Daremos **feedback** a la respuesta obtenida.   
@@ -151,5 +148,5 @@ En la pregunta mostrada, se hacen dos comprobaciones sobre el campo de entrada `
 + Nodo 1: que sea igual a `solA`, en cuyo caso la calificación es 1 (respuesta correcta). Si la comprobación no se cumpliera, pasamos al Nodo 2.
 + Nodo 2: si la respuesta es `n1-n2-n3`, lanzamos, como retroalimentación, que "Primero se calcula el paréntesis", ya que en lugar de `n1-(n2-n3)`, el alumno ha obviado la existencia del paréntesis y ha contestado erróneamente. Se cumpla o no esta comprobación, la calificación es 0.
 
->Definiendo adecuadamente nuestras comprobaciones a las respuestas de los alumnos, podremos **DAR INFORMACIÓN** acerca de los errores más habituales y **AYUDAR** a que entiendan por qué su respuesta es errónea.
+> Definiendo adecuadamente nuestras comprobaciones a las respuestas de los alumnos, podremos **DAR INFORMACIÓN** acerca de los errores más habituales y **AYUDAR** a que entiendan por qué su respuesta es errónea.
 
