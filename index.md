@@ -4,7 +4,7 @@
 
 ## Introducción
 
-Vamos a explorar la "pinta" que tiene una pregunta `STACK` a través de la exploración de un ejemplo.
+Vamos a explorar la "pinta" que tiene una pregunta `STACK` a través de una pregunta de ejemplo.
 
 ***
 
