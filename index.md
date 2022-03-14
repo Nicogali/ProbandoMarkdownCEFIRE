@@ -6,6 +6,8 @@
 
 Vamos a explorar la "pinta" que tiene una pregunta `STACK` a través de la exploración de un ejemplo.
 
+{% hint style="warning" %} ESTA DOCUMENTACIÓN SE ELABORÓ DURANTE EL VERANO DE 2020 Y NO SE ACTUALIZA {% endhint %}
+
 ***
 
 ## Archivo `xml` de la pregunta
